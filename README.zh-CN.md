@@ -12,20 +12,19 @@
 ## ⚠️ 重要提示：用户可控工具
 
 AISEACT 是一个**可选的增强方法论**，而非强制性过滤器。你控制何时以及如何使用它。
-#JB|AISEACT 是一个**可选的增强方法论**，而非强制性过滤器。你控制何时以及如何使用它。
-#KB|
-#HM|### 为什么使用 AISEACT？（优势）
-#QM|
-#HB|| 优势 | 效果 |
-#HQ||------|------|
-#BM|| **更高来源质量** | P0 来源使用率从 5-15% 提升至 85-100% |
-#RJ|| **时间效率** | 来源验证时间减少 75% |
-#SK|| **更高准确性** | 事实核查错误率降低 83% |
-#NT|| **专业研究** | 针对复杂问题的结构化方法论 |
-#BQ|| **可追溯性** | 清晰的来源标注和引用 |
-#JM|
-#NR|📊 **[查看完整评估报告 →](EVALUATION_REPORT.md)**
-#RJ|
+
+### 为什么使用 AISEACT？（优势）
+
+| 优势 | 效果 |
+|------|------|
+| **更高来源质量** | P0 来源使用率从 5-15% 提升至 85-100% |
+| **时间效率** | 来源验证时间减少 75% |
+| **更高准确性** | 事实核查错误率降低 83% |
+| **专业研究** | 针对复杂问题的结构化方法论 |
+| **可追溯性** | 清晰的来源标注和引用 |
+
+📊 **[查看完整评估报告 →](EVALUATION_REPORT.md)**
+
 | 特性 | 工作方式 |
 |------|----------|
 | **调用方式** | 默认手动（你明确请求时才使用） |
@@ -227,9 +226,12 @@ aiseact/
 ├── SKILL.md                     # 核心方法论（供 AI 代理使用）
 ├── TRUST.md                     # 信任与透明度报告
 ├── CONFIGURATION.md             # 配置指南
+├── EVALUATION_REPORT.md         # 性能评估报告
+├── SECURITY.md                  # 安全文档
 └── references/                  # 参考文档
     ├── unreliable-sources.md    # 来源质量参考（含免责声明）
     ├── authority-sources.md     # 权威来源推荐
+    ├── quick-reference.md       # 双语快速参考
     ├── workflow.md              # 详细工作流程指南
     ├── search-strategies.md     # 搜索技巧
     └── case-studies.md          # 案例
@@ -288,6 +290,7 @@ AISEACT 提供一个可选框架来实现这些——而不会强制用于每个
 - **[SKILL.md](SKILL.md)** - AI 代理的核心方法论
 - **[TRUST.md](TRUST.md)** - 信任、透明度和用户控制
 - **[CONFIGURATION.md](CONFIGURATION.md)** - 自定义选项
+- **[EVALUATION_REPORT.md](EVALUATION_REPORT.md)** - 性能指标和测试
 - **[references/workflow.md](references/workflow.md)** - 详细工作流程
 - **[references/authority-sources.md](references/authority-sources.md)** - 来源推荐
 

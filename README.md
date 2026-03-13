@@ -12,20 +12,19 @@
 ## ⚠️ Important Notice: User-Controlled Tool
 
 AISEACT is an **optional enhancement methodology**, not a mandatory filter. You control when and how it's used.
-#JK|AISEACT is an **optional enhancement methodology**, not a mandatory filter. You control when and how it's used.
-#RB|
-#KV|### Why Use AISEACT? (Benefits)
-#QM|
-#KB|| Benefit | Impact |
-#HQ||---------|--------|
-#BR|| **Higher Source Quality** | P0 source usage increases from 5-15% to 85-100% |
-#RT|| **Time Efficiency** | 75% less time spent on source verification |
-#SB|| **Better Accuracy** | Fact-check error rate reduced by 83% |
-#BM|| **Professional Research** | Structured methodology for complex questions |
-#XR|| **Traceability** | Clear source labeling and citations |
-#JM|
-#XS|📊 **[See full evaluation report →](EVALUATION_REPORT.md)**
-#RJ|
+
+### Why Use AISEACT? (Benefits)
+
+| Benefit | Impact |
+|---------|--------|
+| **Higher Source Quality** | P0 source usage increases from 5-15% to 85-100% |
+| **Time Efficiency** | 75% less time spent on source verification |
+| **Better Accuracy** | Fact-check error rate reduced by 83% |
+| **Professional Research** | Structured methodology for complex questions |
+| **Traceability** | Clear source labeling and citations |
+
+📊 **[See full evaluation report →](EVALUATION_REPORT.md)**
+
 | Feature | How It Works |
 |---------|--------------|
 | **Invocation** | Manual by default (you explicitly request it) |
@@ -227,9 +226,12 @@ aiseact/
 ├── SKILL.md                     # Core methodology (for AI agents)
 ├── TRUST.md                     # Trust & transparency report
 ├── CONFIGURATION.md             # Configuration guide
+├── EVALUATION_REPORT.md         # Performance evaluation report
+├── SECURITY.md                  # Security documentation
 └── references/                  # Reference documents
     ├── unreliable-sources.md    # Source quality reference (with disclaimers)
     ├── authority-sources.md     # Authoritative source recommendations
+    ├── quick-reference.md       # Bilingual quick reference
     ├── workflow.md              # Detailed workflow guide
     ├── search-strategies.md     # Search techniques
     └── case-studies.md          # Examples
@@ -288,6 +290,7 @@ AISEACT provides an optional framework to achieve this — without forcing it on
 - **[SKILL.md](SKILL.md)** - Core methodology for AI agents
 - **[TRUST.md](TRUST.md)** - Trust, transparency, and user control
 - **[CONFIGURATION.md](CONFIGURATION.md)** - Customization options
+- **[EVALUATION_REPORT.md](EVALUATION_REPORT.md)** - Performance metrics and testing
 - **[references/workflow.md](references/workflow.md)** - Detailed workflow
 - **[references/authority-sources.md](references/authority-sources.md)** - Source recommendations
 
