@@ -47,39 +47,7 @@
 
 ---
 
-## 🚀 Quick Start
-
-### For Humans
-
-Copy and paste this prompt to your AI agent (OpenCode, Claude Code, Kimi CLI, Cursor, etc.):
-
-```
-Install and configure aiseact skill by following the instructions here:
-https://github.com/stephenlzc/aiseact
-```
-
-Or install manually:
-
-```bash
-# Clone the repository
-git clone https://github.com/stephenlzc/aiseact.git
-
-# Copy the entire directory to your AI agent's skills folder
-# (replace 'destination' with your AI tool's skills path)
-
-# OpenCode
-cp -r aiseact ~/.config/opencode/skills/
-
-# Claude Code
-cp -r aiseact ~/.claude/skills/
-
-# Kimi CLI
-cp -r aiseact ~/.kimi/skills/
-```
-
----
-
-## How It Works
+## What This Skill Does
 
 | Feature | Description |
 |---------|-------------|
@@ -118,6 +86,37 @@ AI search often retrieves mixed-quality results:
 - Unverifiable claims
 
 **AISEACT offers a solution**: A systematic approach to prioritize primary sources and improve traceability — when you choose to use it.
+
+---
+
+## 🚀 Quick Start
+
+### For Humans
+
+Copy and paste this prompt to your AI agent (OpenCode, Claude Code, Kimi CLI, Cursor, etc.):
+
+```
+Install and configure aiseact skill by following the instructions here:
+https://github.com/stephenlzc/aiseact
+```
+
+Or install manually:
+
+```bash
+# Clone the repository
+git clone https://github.com/stephenlzc/aiseact.git
+
+# Copy the entire directory to your AI agent's skills folder
+
+# OpenCode
+cp -r aiseact ~/.config/opencode/skills/
+
+# Claude Code
+cp -r aiseact ~/.claude/skills/
+
+# Kimi CLI
+cp -r aiseact ~/.kimi/skills/
+```
 
 ---
 
