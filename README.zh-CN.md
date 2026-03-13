@@ -66,7 +66,7 @@ AISEACT 可与以下AI编程代理配合使用：
 
 ```
 安装 AISEACT 技能来帮助我进行搜索任务。
-从以下地址克隆：https://github.com/yourusername/aiseact
+从以下地址克隆：https://github.com/stephenlzc/aiseact
 使用 SKILL.md 来指导所有网络搜索——优先使用一手来源，避免内容农场，并对重要信息进行交叉验证。
 ```
 
@@ -74,7 +74,7 @@ AISEACT 可与以下AI编程代理配合使用：
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/aiseact.git
+git clone https://github.com/stephenlzc/aiseact.git
 
 # 对于 OpenClaw
 openclaw skill install ./aiseact
@@ -264,7 +264,7 @@ AISEACT为AI搜索添加了**方法论**：
 
 ## 许可证
 
-MIT © [Your Name](https://github.com/yourusername)
+MIT © [stephenlzc](https://github.com/stephenlzc)
 
 ---
 

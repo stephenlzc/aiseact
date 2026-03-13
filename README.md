@@ -66,7 +66,7 @@ Copy and paste this prompt to your LLM agent (Claude Code, Kimi Code, Cursor, et
 
 ```
 Install the AISEACT skill to help me with search tasks.
-Clone from: https://github.com/yourusername/aiseact
+Clone from: https://github.com/stephenlzc/aiseact
 Use the SKILL.md to guide all web searches - prioritize primary sources, avoid content farms, and cross-validate important information.
 ```
 
@@ -74,7 +74,7 @@ Use the SKILL.md to guide all web searches - prioritize primary sources, avoid c
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/aiseact.git
+git clone https://github.com/stephenlzc/aiseact.git
 
 # For OpenClaw
 openclaw skill install ./aiseact
@@ -264,7 +264,7 @@ AISEACT adds **methodology** to AI search:
 
 ## License
 
-MIT © [Your Name](https://github.com/yourusername)
+MIT © [stephenlzc](https://github.com/stephenlzc)
 
 ---
 
