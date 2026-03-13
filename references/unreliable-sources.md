@@ -1,8 +1,19 @@
-# VeritaSource - Unreliable Sources List
+# VeritaSource - Source Quality Reference List
 
-> This list helps AI systems and users identify and avoid citing unreliable information sources, improving information accuracy and authority.
+> ⚠️ **Important Disclaimer**: This is a **reference document**, not a definitive blacklist. Source quality is context-dependent, and ratings reflect community consensus rather than absolute truth.
+>
+> **Purpose**: Provide guidance for evaluating source credibility. Users retain full control over which sources to include or exclude.
+>
+**Basis**: Ratings compiled from Wikipedia [Perennial Sources List](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources/Perennial_sources), [维基百科可靠来源](https://zh.wikipedia.org/wiki/Wikipedia:%E5%8F%AF%E9%9D%A0%E6%9D%A5%E6%BA%90/%E5%B8%B8%E8%A7%81%E6%9C%89%E4%BA%89%E8%AE%AE%E6%9D%A5%E6%BA%90%E5%88%97%E8%A1%A8), NewsGuard, Media Bias/Fact Check, and other third-party assessments.
+>
+> **Limitations**: 
+> - Western-centric bias in evaluation frameworks
+> - Temporal limitations (ratings change over time)
+> - Context matters (a source rated low for politics may be fine for other topics)
+>
+> **User Control**: You can always request inclusion of any source, regardless of its rating here.
 > 
-> Last Updated: March 2026
+Last Updated: March 2026 (Wikipedia sources verified)
 
 ---
 
@@ -162,7 +173,6 @@ The following ratings are based on long-term discussion consensus from Wikipedia
 |----------|------|------|
 | **香港电台（2021年前）** | 可靠 | 编采自主 |
 | **香港电台（2021年后政治）** | 半可靠 | 需审查 |
-| **香港苹果日报** | 可靠 | 非政治通常可靠 |
 | **香港01（非政治）** | 可靠 | 2026年 |
 | **香港01（政治）** | 半可靠 | 2020年后 |
 | **立场新闻** | 可靠 | 2021年前 |
@@ -573,11 +583,42 @@ Based on recommendations from multiple fact-checking organizations, please note 
 
 ## Usage Recommendations
 
-1. **Prioritize authoritative sources**: Government websites, authoritative media, academic databases
-2. **Cross-validate**: Important information should be verified across multiple reliable sources
-3. **Beware of emotional content**: Articles with inflammatory or extreme positions should be treated cautiously
-4. **Use blocking tools**: Install tools like uBlacklist to filter content farms
+1. **Consider context**: A source rated "unreliable" for political news may be acceptable for entertainment or opinion pieces
+2. **Cross-validate**: Important information should be verified across multiple sources with different perspectives
+3. **Use your judgment**: These ratings are guidelines, not rules
+4. **Request specific sources**: If you need information from a particular source, explicitly request it regardless of its rating
 5. **Develop media literacy**: Learn to recognize common patterns of clickbait and misinformation
+
+## Important Notes on Source Evaluation
+
+### Context Dependency
+
+Source reliability is **highly context-dependent**:
+
+| Source Type | Political News | Technology | Entertainment | Opinion |
+|-------------|----------------|------------|---------------|---------|
+| Tabloid newspaper | Unreliable | May be OK | Often suitable | N/A |
+| Self-media platform | Generally unreliable | Mixed | Suitable | Can be valuable |
+| Government media | Fact-check political claims | Usually reliable | N/A | Represents official view |
+| Academic journal | N/A | Reliable | N/A | Peer-reviewed |
+
+### When to Disregard These Ratings
+
+You may choose to use sources rated here as "unreliable" when:
+- You need diverse perspectives on controversial topics
+- You're researching media bias itself
+- The source has specific expertise in a niche area
+- You're looking for opinion pieces or commentary
+- Primary sources are unavailable and this is the best available
+
+### Bias Acknowledgment
+
+This list may reflect:
+- **Western-centric bias**: Non-Western media may be underweighted
+- **Mainstream preference**: Independent/alternative sources may be underrepresented
+- **Institutional bias**: Established institutions rated higher than challengers
+
+Always supplement these ratings with your own knowledge and judgment.
 
 ---
 
