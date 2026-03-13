@@ -13,10 +13,10 @@
   <img src="https://img.shields.io/badge/Version-1.1.0-blue.svg?style=flat&logo=version" alt="Version" />
   <img src="https://img.shields.io/badge/Last%20Updated-March%202026-green.svg?style=flat&logo=calendar" alt="Last Updated" />
   <br>
-  <img src="https://img.shields.io/badge/Source%20Quality-5%25→85%25-green.svg?style=flat&logo=quality" alt="P0 Source: 5% to 85%" />
-  <img src="https://img.shields.io/badge/Trust-Transparent-blue.svg?style=flat&logo=trust" alt="Trust: Transparent" />
-  <img src="https://img.shields.io/badge/Accuracy-Improvement-83%25-orange.svg?style=flat&logo=accuracy" alt="Accuracy: +83%" />
-  <img src="https://img.shields.io/badge/Efficiency-Time%20Saved-75%25-yellowgreen.svg?style=flat&logo=efficiency" alt="Time Saved: 75%" />
+  <img src="https://img.shields.io/badge/Source%20Quality-5%25→85%25-green.svg?style=flat&logo=quality" alt="Source Quality" />
+  <img src="https://img.shields.io/badge/Trust-Transparent-blue.svg?style=flat&logo=trust" alt="Trust" />
+  <img src="https://img.shields.io/badge/Accuracy-Up-83%25-orange.svg?style=flat&logo=accuracy" alt="Accuracy +83%" />
+  <img src="https://img.shields.io/badge/Time-Saved-75%25-yellowgreen.svg?style=flat&logo=time" alt="Time Saved 75%" />
 </p>
 
 ---
