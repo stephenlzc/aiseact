@@ -57,6 +57,40 @@
 
 ---
 
+## 🚀 快速开始
+
+### 对于人类
+
+复制以下提示词给你的 AI 代理（OpenCode、Claude Code、Kimi CLI、Cursor 等）：
+
+```
+请安装并配置 aiseact skill，参考以下说明：
+https://github.com/stephenlzc/aiseact
+```
+
+或手动复制 `SKILL.md` 到你的 AI 代理的 skills 文件夹：
+
+```bash
+# OpenCode
+cp aiseact/SKILL.md ~/.config/opencode/skills/
+
+# Claude Code
+cp aiseact/SKILL.md ~/.claude/skills/
+
+# Kimi CLI
+cp aiseact/SKILL.md ~/.kimi/skills/
+```
+
+### 对于 AI 代理
+
+直接获取最新的 skill 文件：
+
+```bash
+curl -s https://raw.githubusercontent.com/stephenlzc/aiseact/main/SKILL.md
+```
+
+---
+
 ## 这个 Skill 是做什么的
 
 AISEACT 提供了一个**结构化的可选方法论**，用于在你需要严谨、来源可靠的答案时提升 AI 搜索质量。

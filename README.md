@@ -57,6 +57,40 @@
 
 ---
 
+## 🚀 Quick Start
+
+### For Humans
+
+Copy and paste this prompt to your AI agent (OpenCode, Claude Code, Kimi CLI, Cursor, etc.):
+
+```
+Install and configure aiseact skill by following the instructions here:
+https://github.com/stephenlzc/aiseact
+```
+
+Or manually copy `SKILL.md` to your AI agent's skills folder:
+
+```bash
+# OpenCode
+cp aiseact/SKILL.md ~/.config/opencode/skills/
+
+# Claude Code
+cp aiseact/SKILL.md ~/.claude/skills/
+
+# Kimi CLI
+cp aiseact/SKILL.md ~/.kimi/skills/
+```
+
+### For AI Agents
+
+Fetch the latest skill file directly:
+
+```bash
+curl -s https://raw.githubusercontent.com/stephenlzc/aiseact/main/SKILL.md
+```
+
+---
+
 ## What This Skill Does
 
 AISEACT provides a **structured, optional methodology** for improving AI search quality when you need rigorous, well-sourced answers.
