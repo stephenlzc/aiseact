@@ -1,11 +1,30 @@
-# AISEACT
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=800&color=3B82F6&center=true&vCenter=true&width=500&lines=AISEACT" alt="AISEACT" />
+</h1>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Trust: Transparent](https://img.shields.io/badge/Trust-Transparent-blue.svg)](TRUST.md)
+<h3 align="center">
+  AI-Search-EhAnCemenT — An Optional Methodology for Higher-Quality Search Results
+</h3>
 
-> **AI-Search-EhAnCemenT** — An Optional Methodology for Higher-Quality Search Results
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+  </a>
+  <a href="TRUST.md">
+    <img src="https://img.shields.io/badge/Trust-Transparent-blue.svg" alt="Trust: Transparent" />
+  </a>
+  <img src="https://img.shields.io/badge/Source%20Quality-5%25→85%25-green.svg" alt="P0 Source: 5% to 85%" />
+</p>
 
-🌐 **English** · [简体中文](README.zh-CN.md)
+---
+
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=10B981&center=true&vCenter=true&width=750&lines=让AI搜索从「随手」到「专业」;从「大概」到「精准」;从「引用」到「可验证」" alt="Slogan" />
+</h3>
+
+<p align="center">
+  🌐 <strong>English</strong> · <a href="README.zh-CN.md">简体中文</a>
+</p>
 
 ---
 
@@ -238,7 +257,7 @@ aiseact/
     ├── quick-reference.md       # Bilingual quick reference
     ├── workflow.md              # Detailed workflow guide
     ├── search-strategies.md     # Search techniques
-    └── case-studies.md         # Examples
+    └── case-studies.md          # Examples
 ```
 
 ---
