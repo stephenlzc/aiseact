@@ -79,14 +79,6 @@ cp -r aiseact ~/.claude/skills/
 cp -r aiseact ~/.kimi/skills/
 ```
 
-### For AI Agents
-
-Fetch the latest skill file directly:
-
-```bash
-curl -s https://raw.githubusercontent.com/stephenlzc/aiseact/main/SKILL.md
-```
-
 ---
 
 ## How It Works
