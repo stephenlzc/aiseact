@@ -7,13 +7,16 @@
 </h3>
 
 <p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
-  </a>
-  <a href="TRUST.md">
-    <img src="https://img.shields.io/badge/%E4%BF%A1%E4%BB%BB-%E9%80%8A%E6%98%8E-blue.svg" alt="Trust: Transparent" />
-  </a>
-  <img src="https://img.shields.io/badge/%E6%9D%A5%E6%BA%90%E8%B4%A8%E9%87%8F-5%25→85%25-green.svg" alt="P0 Source: 5% to 85%" />
+  <!-- 徽章 -->
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat&logo=license" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/Language-简体中文-blue.svg?style=flat&logo=language" alt="语言" />
+  <img src="https://img.shields.io/badge/Version-1.1.0-blue.svg?style=flat&logo=version" alt="版本" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026年3月-green.svg?style=flat&logo=calendar" alt="最后更新" />
+  <br>
+  <img src="https://img.shields.io/badge/来源质量-5%25→85%25-green.svg?style=flat&logo=quality" alt="来源质量" />
+  <img src="https://img.shields.io/badge/信任度-透明-blue.svg?style=flat&logo=trust" alt="信任透明" />
+  <img src="https://img.shields.io/badge/准确率提升-83%25-orange.svg?style=flat&logo=accuracy" alt="准确率提升" />
+  <img src="https://img.shields.io/badge/效率提升-节省时间-75%25-yellowgreen.svg?style=flat&logo=efficiency" alt="节省时间" />
 </p>
 
 ---
@@ -23,7 +26,7 @@
 </h3>
 
 <p align="center">
-  🌐 <a href="README.md">English</a> · <strong>简体中文</strong>
+  🌐 <a href="README.md">English</a> · <strong>简体中文</strong> · <a href="https://github.com/stephenlzc/aiseact/stargazers"><img src="https://img.shields.io/github/stars/stephenlzc/aiseact?style=social" alt="Stars" /></a> · <a href="https://github.com/stephenlzc/aiseact/network/members"><img src="https://img.shields.io/github/forks/stephenlzc/aiseact?style=social" alt="Forks" /></a>
 </p>
 
 ---
