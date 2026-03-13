@@ -20,7 +20,9 @@
 
 <h3 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=10B981&center=true&vCenter=true&width=750&lines=Turn+AI+search+from+casual+to+professional;From+guesswork+to+precision;From+citation+to+verifiable" alt="Slogan" />
-</h3>
+#HT|<h3 align="center">
+#JH|  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=10B981&center=true&vCenter=true&width=750&lines=From+I+think+to+I+know;From+uncertainty+to+facts;From+vague+citations+to+verifiable+sources" alt="Slogan" />
+#HT|
 
 <p align="center">
   🌐 <strong>English</strong> · <a href="README.zh-CN.md">简体中文</a>
