@@ -356,7 +356,7 @@ AISEACT provides an optional framework — without forcing it on every query.
 
 ## 🙏 Acknowledgments
 
-Special thanks to **CHEN老师说AI** on Douyin for the inspiration and insights that helped shape this project.
+Special thanks to <img src="https://simpleicons.org/icons/tiktok.svg" width="16" height="16" alt="TikTok"/> **CHEN老师说AI** on Douyin for the inspiration and insights that helped shape this project.
 
 ---
 
