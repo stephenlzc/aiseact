@@ -74,19 +74,16 @@ https://github.com/stephenlzc/aiseact
 # 克隆仓库
 git clone https://github.com/stephenlzc/aiseact.git
 
-# 进入目录
-cd aiseact
-
-# 复制 SKILL.md 到你的 AI 代理的 skills 文件夹
+# 复制整个目录到你的 AI 代理的 skills 文件夹
 
 # OpenCode
-cp SKILL.md ~/.config/opencode/skills/
+cp -r aiseact ~/.config/opencode/skills/
 
 # Claude Code
-cp SKILL.md ~/.claude/skills/
+cp -r aiseact ~/.claude/skills/
 
 # Kimi CLI
-cp SKILL.md ~/.kimi/skills/
+cp -r aiseact ~/.kimi/skills/
 ```
 
 ### 对于 AI 代理

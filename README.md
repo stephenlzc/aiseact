@@ -63,17 +63,17 @@ Or install manually:
 # Clone the repository
 git clone https://github.com/stephenlzc/aiseact.git
 
-# Copy SKILL.md to your AI agent's skills folder
-cd aiseact
+# Copy the entire directory to your AI agent's skills folder
+# (replace 'destination' with your AI tool's skills path)
 
 # OpenCode
-cp SKILL.md ~/.config/opencode/skills/
+cp -r aiseact ~/.config/opencode/skills/
 
 # Claude Code
-cp SKILL.md ~/.claude/skills/
+cp -r aiseact ~/.claude/skills/
 
 # Kimi CLI
-cp SKILL.md ~/.kimi/skills/
+cp -r aiseact ~/.kimi/skills/
 ```
 
 ### For AI Agents
