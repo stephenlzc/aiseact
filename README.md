@@ -44,17 +44,6 @@
 
 📊 [Full Evaluation Report →](EVALUATION_REPORT.md)
 
-### How It Works
-
-| Feature | Description |
-|---------|-------------|
-| 🔧 **Invocation** | Manual by default (explicit request required) |
-| ⚙️ **Autonomous Mode** | Opt-in only; must be explicitly enabled |
-| 🔄 **Override** | Always available; skip or customize anytime |
-| 📖 **Transparency** | Source ratings are guidelines, not rules |
-
-📖 [Trust & Transparency Report →](TRUST.md) · [Configuration Guide →](CONFIGURATION.md)
-
 ---
 
 ## 🚀 Quick Start
@@ -68,17 +57,23 @@ Install and configure aiseact skill by following the instructions here:
 https://github.com/stephenlzc/aiseact
 ```
 
-Or manually copy `SKILL.md` to your AI agent's skills folder:
+Or install manually:
 
 ```bash
+# Clone the repository
+git clone https://github.com/stephenlzc/aiseact.git
+
+# Copy SKILL.md to your AI agent's skills folder
+cd aiseact
+
 # OpenCode
-cp aiseact/SKILL.md ~/.config/opencode/skills/
+cp SKILL.md ~/.config/opencode/skills/
 
 # Claude Code
-cp aiseact/SKILL.md ~/.claude/skills/
+cp SKILL.md ~/.claude/skills/
 
 # Kimi CLI
-cp aiseact/SKILL.md ~/.kimi/skills/
+cp SKILL.md ~/.kimi/skills/
 ```
 
 ### For AI Agents
@@ -88,6 +83,19 @@ Fetch the latest skill file directly:
 ```bash
 curl -s https://raw.githubusercontent.com/stephenlzc/aiseact/main/SKILL.md
 ```
+
+---
+
+## How It Works
+
+| Feature | Description |
+|---------|-------------|
+| 🔧 **Invocation** | Manual by default (explicit request required) |
+| ⚙️ **Autonomous Mode** | Opt-in only; must be explicitly enabled |
+| 🔄 **Override** | Always available; skip or customize anytime |
+| 📖 **Transparency** | Source ratings are guidelines, not rules |
+
+📖 [Trust & Transparency Report →](TRUST.md) · [Configuration Guide →](CONFIGURATION.md)
 
 ---
 
