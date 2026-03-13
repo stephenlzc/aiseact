@@ -354,6 +354,12 @@ AISEACT provides an optional framework — without forcing it on every query.
 
 ---
 
+## 🙏 Acknowledgments
+
+Special thanks to **CHEN老师说AI** on Douyin for the inspiration and insights that helped shape this project.
+
+---
+
 ## License
 
 MIT © [stephenlzc](https://github.com/stephenlzc)

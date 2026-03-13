@@ -325,6 +325,12 @@ AISEACT 提供一个可选框架来实现这些——而不会强制用于每个
 
 ---
 
+## 🙏 致谢
+
+特别感谢抖音的 **CHEN老师说AI**，感谢您的启发和见解，帮助塑造了这个项目。
+
+---
+
 ## 许可证
 
 MIT © [stephenlzc](https://github.com/stephenlzc)
