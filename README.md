@@ -15,8 +15,6 @@
   <br>
   <img src="https://img.shields.io/badge/Source%20Quality-5%25→85%25-green.svg?style=flat&logo=quality" alt="Source Quality" />
   <img src="https://img.shields.io/badge/Trust-Transparent-blue.svg?style=flat&logo=trust" alt="Trust" />
-  <img src="https://img.shields.io/badge/Accuracy-Up-83%25-orange.svg?style=flat&logo=accuracy" alt="Accuracy +83%" />
-  <img src="https://img.shields.io/badge/Time-Saved-75%25-yellowgreen.svg?style=flat&logo=time" alt="Time Saved 75%" />
 </p>
 
 ---
