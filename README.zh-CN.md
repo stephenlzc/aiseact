@@ -19,10 +19,8 @@
 ---
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=10B981&center=true&vCenter=true&width=750&lines=让AI搜索从「随手」到「专业」;从「大概」到「精准」;从「引用」到「可验证」" alt="Slogan" />
-#HT|<h3 align="center">
-#MH|  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=10B981&center=true&vCenter=true&width=750&lines=从「我以为」到「我确定」;从不确定到确凿事实;从模糊引用到可验证来源" alt="Slogan" />
-#HT|
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=10B981&center=true&vCenter=true&width=750&lines=从「我以为」到「我确定」;从不确定到确凿事实;从模糊引用到可验证来源" alt="Slogan" />
+</h3>
 
 <p align="center">
   🌐 <a href="README.md">English</a> · <strong>简体中文</strong>
