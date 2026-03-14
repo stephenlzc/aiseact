@@ -58,6 +58,41 @@ Phase 6: Format - [source]-[url]-[primary/secondary]
 - GitHub: site:github.com
 - Docs: filetype:pdf
 
+# Search Tools
+## multi-search-engine (Recommended)
+Multi-engine integration with 17 search engines (8 CN + 9 Global). No API keys required.
+
+### China-Focused (8)
+- Baidu: CN policy, local content
+- Bing CN: International results in CN
+- Sogou: WeChat indexing
+- WeChat: Chinese articles
+- Toutiao: News, social content
+- Jisilu: Finance, bonds
+- 360: General CN search
+
+### International (9)
+- Google: Tech, academic, global
+- Google HK: HK content
+- DuckDuckGo: Privacy-sensitive queries
+- Brave: Independent index
+- Yahoo: General
+- Startpage: Private Google
+- Ecosia: Eco-friendly
+- Qwant: Privacy
+- WolframAlpha: Facts, math, calculations
+
+### Engine Selection Guide
+| Query Type | Primary | Secondary | Notes |
+|-----------|---------|-----------|-------|
+| China policy | Baidu | Bing CN | Use site:gov.cn |
+| Tech/Code | Google | DuckDuckGo | GitHub, StackOverflow |
+| Privacy-sensitive | DuckDuckGo | Brave | No tracking |
+| Calculations | WolframAlpha | - | Math, conversions |
+| HK companies | Google HK | - | site:hkexnews.hk |
+| Global news | Google | Bing | Cross-verify |
+| Fact-check | DuckDuckGo | - | Multiple sources |
+
 # References
 - quick-reference.md - Quick lookup (recommended)
 - unreliable-sources.md - Detailed ratings

@@ -83,6 +83,26 @@ Predict where primary sources are most likely to be found:
 - Obviously rewritten self-media
 - Machine-translated websites
 
+### 0.5 Engine Selection (multi-search-engine)
+
+**Select search engines based on query type**:
+
+| Query Type | Primary Engine | Secondary |
+|-----------|---------------|-----------|
+| China policy/gov | Baidu | Bing CN |
+| China companies | Baidu | Google |
+| HK/Taiwan | Google HK | Baidu |
+| US/International | Google | Bing |
+| Tech/Code | Google | DuckDuckGo |
+| Privacy-sensitive | DuckDuckGo | Brave |
+| Calculations/Facts | WolframAlpha | - |
+| Verification | Alternative engine | - |
+
+**Execution strategy**:
+- **Phase 1**: Use 2-3 engines in parallel for broad coverage
+- **Phase 3**: Use primary engine with site: operators
+- **Phase 4**: Use alternative engine for cross-validation
+
 ---
 
 ## Phase 1: Round 1 Search - Broad Collection
@@ -90,6 +110,11 @@ Predict where primary sources are most likely to be found:
 ### 1.1 Execute Search
 
 **Strategy**: Use multiple keyword combinations to collect candidate sources.
+
+**Multi-Engine Execution**:
+- Execute 2-3 engines simultaneously for comprehensive coverage
+- Example: Baidu + Google + DuckDuckGo in parallel
+- Combine results, remove duplicates, filter by quality
 
 **Keyword Combination Principles**:
 - Core topic words
@@ -178,6 +203,11 @@ Plan specific search strategies for each gap:
 
 **Use precise search syntax** to directly locate primary sources:
 
+**Multi-Engine Targeted Approach**:
+- Use primary engine for target source (e.g., Baidu for CN sources)
+- Use site: operators with appropriate engine
+- Example: Baidu + "company_name" + site:cninfo.com.cn
+
 **General Search Patterns**:
 
 ```
@@ -233,6 +263,11 @@ target_name official document/report
 | [Type 2] | Yes/No | [Source] | [Assessment] |
 
 ### 4.2 Cross-Validation Execution
+
+**Multi-Engine Validation**:
+- Use alternative engine from different index
+- Example: If primary was Google, verify with DuckDuckGo or Bing
+- WolframAlpha for factual/calculation verification
 
 **Validation Standards**:
 - **Key data**: At least 2-3 independent sources

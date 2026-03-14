@@ -243,10 +243,62 @@ cp aiseact/SKILL.md ~/.claude/skills/
 技术名称 site:github.com filetype:pdf
 ```
 
+### 4. 增强搜索 - multi-search-engine
+
+AISEACT 集成了 **multi-search-engine**，提供强大的多引擎搜索能力：
+
+| 功能 | 说明 |
+|------|------|
+| **17 个搜索引擎** | 8 个中国 + 9 个全球 |
+| **无需 API 密钥** | 开箱即用 |
+| **高级搜索语法** | site:、filetype:、时间过滤 |
+| **隐私选项** | DuckDuckGo、Brave、Startpage |
+| **知识引擎** | WolframAlpha 用于计算和事实查询 |
+
+**引擎选择指南**：
+
+| 查询类型 | 主要引擎 | 备用引擎 |
+|---------|---------|---------|
+| 中国政策 | 百度 | 必应中国 |
+| 科技/代码 | Google | DuckDuckGo |
+| 隐私敏感 | DuckDuckGo | Brave |
+| 计算查询 | WolframAlpha | - |
+| 港股公司 | Google 香港 | - |
+| 全球新闻 | Google | 必应 |
+
+**安装方式**：
+```bash
+# OpenClaw 安装
+openclaw skill install https://clawhub.ai/gpyAngyoujun/multi-search-engine
+
+# 或通过 LobeHub CLI
+npx -y @lobehub/market-cli skills install mushroomfu-openclaw-skills-multi-search-engine
+```
+
+📖 详细使用说明请参见 [references/multi-engine-guide.md](references/multi-engine-guide.md)
+
 ---
 
 ## 项目结构
 
+```
+aiseact/
+├── README.md                    # 英文文档
+├── README.zh-CN.md              # 本文件
+├── SKILL.md                     # 核心方法论（供 AI 代理使用）
+├── TRUST.md                     # 信任与透明度报告
+├── CONFIGURATION.md             # 配置指南
+├── EVALUATION_REPORT.md         # 性能评估报告
+├── SECURITY.md                  # 安全文档
+└── references/
+    ├── unreliable-sources.md    # 来源质量参考
+    ├── authority-sources.md     # 权威来源推荐
+    ├── quick-reference.md       # 双语快速参考
+    ├── workflow.md              # 详细工作流程指南
+    ├── search-strategies.md     # 搜索技巧
+    ├── multi-engine-guide.md    # multi-search-engine 集成指南
+    ├── search-syntax.md        # 统一搜索语法参考
+    └── case-studies.md         # 案例
 ```
 aiseact/
 ├── README.md                    # 本文件
@@ -322,12 +374,15 @@ AISEACT 提供一个可选框架来实现这些——而不会强制用于每个
 - [EVALUATION_REPORT.md](EVALUATION_REPORT.md) — 性能指标
 - [references/workflow.md](references/workflow.md) — 详细工作流程
 - [references/authority-sources.md](references/authority-sources.md) — 来源推荐
+- [references/multi-engine-guide.md](references/multi-engine-guide.md) — multi-search-engine 集成指南
 
 ---
 
 ## 🙏 致谢
 
 特别感谢抖音的 <img src="https://simpleicons.org/icons/tiktok.svg" width="16" height="16" alt="TikTok"/> **CHEN老师说AI**，感谢您的启发和见解，帮助塑造了这个项目。
+
+感谢 **[@gpyAngyoujun](https://clawhub.ai/gpyAngyoujun/multi-search-engine)** 提出的17引擎聚合这一出色想法 — 这个概念启发了 AISEACT 的多引擎研究工作流。在这个 vibe coding 的时代，**点子才是真正的引擎**。
 
 ---
 

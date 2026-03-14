@@ -272,10 +272,62 @@ company_name site:hkexnews.hk
 technology_name site:github.com filetype:pdf
 ```
 
+### 4. Enhanced Search with multi-search-engine
+
+AISEACT integrates with **multi-search-engine** for powerful multi-engine search capabilities:
+
+| Feature | Description |
+|---------|-------------|
+| **17 Search Engines** | 8 China-focused + 9 Global |
+| **No API Keys Required** | Ready to use out of the box |
+| **Advanced Operators** | site:, filetype:, time filters |
+| **Privacy Options** | DuckDuckGo, Brave, Startpage |
+| **Knowledge Engine** | WolframAlpha for calculations |
+
+**Engine Selection Guide**:
+
+| Query Type | Primary | Secondary |
+|-----------|---------|-----------|
+| China policy | Baidu | Bing CN |
+| Tech/Code | Google | DuckDuckGo |
+| Privacy-sensitive | DuckDuckGo | Brave |
+| Calculations | WolframAlpha | - |
+| HK companies | Google HK | - |
+| Global news | Google | Bing |
+
+**Installation**:
+```bash
+# Install multi-search-engine for OpenClaw
+openclaw skill install https://clawhub.ai/gpyAngyoujun/multi-search-engine
+
+# Or via LobeHub CLI
+npx -y @lobehub/market-cli skills install mushroomfu-openclaw-skills-multi-search-engine
+```
+
+📖 See [references/multi-engine-guide.md](references/multi-engine-guide.md) for detailed usage.
+
 ---
 
 ## Project Structure
 
+```
+aiseact/
+├── README.md                    # This file
+├── README.zh-CN.md              # Chinese documentation
+├── SKILL.md                     # Core methodology (for AI agents)
+├── TRUST.md                     # Trust & transparency report
+├── CONFIGURATION.md             # Configuration guide
+├── EVALUATION_REPORT.md         # Performance evaluation report
+├── SECURITY.md                  # Security documentation
+└── references/
+    ├── unreliable-sources.md    # Source quality reference
+    ├── authority-sources.md     # Authoritative source recommendations
+    ├── quick-reference.md       # Bilingual quick reference
+    ├── workflow.md              # Detailed workflow guide
+    ├── search-strategies.md     # Search techniques
+    ├── multi-engine-guide.md    # Multi-search-engine integration
+    ├── search-syntax.md        # Unified search syntax reference
+    └── case-studies.md         # Examples
 ```
 aiseact/
 ├── README.md                    # This file
@@ -351,12 +403,15 @@ AISEACT provides an optional framework — without forcing it on every query.
 - [EVALUATION_REPORT.md](EVALUATION_REPORT.md) — Performance metrics
 - [references/workflow.md](references/workflow.md) — Detailed workflow
 - [references/authority-sources.md](references/authority-sources.md) — Source recommendations
+- [references/multi-engine-guide.md](references/multi-engine-guide.md) — Multi-search-engine integration
 
 ---
 
 ## 🙏 Acknowledgments
 
 Special thanks to <img src="https://simpleicons.org/icons/tiktok.svg" width="16" height="16" alt="TikTok"/> **CHEN老师说AI** on Douyin for the inspiration and insights that helped shape this project.
+
+Thanks to **[@gpyAngyoujun](https://clawhub.ai/gpyAngyoujun/multi-search-engine)** for the brilliant idea of aggregating 17 search engines into a unified skill — this concept sparked AISEACT's multi-engine research workflow. In the vibe coding era, **IDEAS ARE THE REAL ENGINE**.
 
 ---
 

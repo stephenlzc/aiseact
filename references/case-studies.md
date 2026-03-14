@@ -313,6 +313,126 @@ industry_name statistics World Bank
 
 ---
 
+## Case 6: Multi-Engine Research with AISEACT
+
+### Scenario Description
+User wants comprehensive research on a China's technology company's IPO prospects, requiring both Chinese and international sources.
+
+### AISEACT + multi-search-engine Application
+
+#### Phase 0: Strategy Planning
+
+**Problem Decomposition**:
+- Company background and business model
+- Financial performance and growth
+- Industry position and competition
+- IPO timing and market conditions
+
+**Engine Selection**:
+- Primary: Baidu (CN sources), Google (global)
+- Secondary: DuckDuckGo (verification), WolframAlpha (data)
+
+#### Phase 1: Broad Search (Parallel Execution)
+
+Execute 3 engines simultaneously:
+
+```
+# Engine 1: Baidu
+company_name 上市 招股书
+company_name IPO
+
+# Engine 2: Google  
+company_name IPO prospectus
+company_name "IPO" "filed" site:sec.gov
+
+# Engine 3: DuckDuckGo (verification)
+company_name IPO news
+```
+
+**Result Filtering**:
+- Keep: cninfo.com.cn filings, company official statements
+- Exclude: Baijiahao,Toutiao aggregations
+- Flag: Need verification from alternative engines
+
+#### Phase 2: Assessment and Gap Analysis
+
+**Identified Gaps**:
+- Missing: A-share prospectus (CN)
+- Missing: SEC filing (if applicable)
+- Need: Industry comparison data
+
+#### Phase 3: Targeted Search
+
+```
+# Target: A-share prospectus
+Baidu: company_name 招股说明书 site:cninfo.com.cn filetype:pdf
+
+# Target: International data
+Google: company_name investor relations site:company-domain.com
+
+# Target: Industry data
+Baidu: industry_name 市场规模 2024
+```
+
+#### Phase 4: Cross-Engine Verification
+
+Use alternative engines to verify key data:
+
+```
+# Verify financial data
+Engine 1: Baidu - company_name 营收 2024
+Engine 2: Google - company_name revenue 2024
+
+# Verify with WolframAlpha
+company_name market cap
+company_name employees
+```
+
+### Answer Structure
+
+```markdown
+## Company X IPO Analysis
+
+### Company Overview
+(Based on prospectus [1])
+
+### Financial Performance
+- Revenue: X billion RMB (2024)
+- [Source: Annual report, cninfo.com.cn]
+
+### Industry Position
+- Market share: X%
+- [Source: Industry report]
+
+### Risk Factors
+[Listed in prospectus]
+
+---
+**Sources**:
+[1] Company X Prospectus - site:cninfo.com.cn - Primary
+[2] Company X Annual Report - site:cninfo.com.cn - Primary
+[3] Industry Report - Authoritative
+```
+
+### Methodology Takeaways
+
+1. **Multi-Engine Advantage**:
+   - Different engines return different result sets
+   - Cross-validation increases confidence
+   - CN engines find CN sources better
+
+2. **Parallel Execution**:
+   - Phase 1: Use 2-3 engines in parallel
+   - Saves time, broader coverage
+
+3. **Engine Specialization**:
+   - Baidu: CN government, local content
+   - Google: Tech, academic, global
+   - DuckDuckGo: Privacy, verification
+   - WolframAlpha: Factual data
+
+---
+
 ## General Methodology Extracted from Cases
 
 ### 1. Primary Source Identification Framework

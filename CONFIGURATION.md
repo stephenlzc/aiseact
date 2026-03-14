@@ -191,6 +191,68 @@ Note: Primary sources may not be available immediately
 
 ---
 
+## multi-search-engine Integration
+
+AISEACT works seamlessly with multi-search-engine for enhanced search capabilities.
+
+### Installation
+
+```bash
+# OpenClaw
+openclaw skill install https://clawhub.ai/gpyAngyoujun/multi-search-engine
+
+# LobeHub CLI
+npx -y @lobehub/market-cli skills install mushroomfu-openclaw-skills-multi-search-engine
+```
+
+### Engine Preferences
+
+Configure default search engine preferences:
+
+| Option | Default | Description |
+|--------|---------|-------------|
+| `preferred_engines` | ["Google", "Baidu"] | Primary engines for search |
+| `fallback_engines` | ["DuckDuckGo"] | If primary fails |
+| `enable_parallel` | true | Execute multiple engines simultaneously |
+
+### Configuration Example
+
+```yaml
+# Example configuration for multi-search-engine integration
+skills:
+  aiseact:
+    # AISEACT settings (as above)
+    disable-model-invocation: true
+    default-strictness: moderate
+    
+  multi-search-engine:
+    # Search engine preferences
+    preferred_engines:
+      - Google    # Global tech/academic
+      - Baidu     # China policy/local
+    fallback_engines:
+      - DuckDuckGo  # Privacy-safe
+    enable_parallel: true
+    default_engines:
+      - Baidu
+      - Google
+      - DuckDuckGo
+```
+
+### Engine Selection by Query Type
+
+AISEACT automatically selects appropriate engines based on query type:
+
+| Query Type | Recommended Engines |
+|------------|-------------------|
+| China policy | Baidu, Bing CN |
+| Tech/Code | Google, DuckDuckGo |
+| Privacy-sensitive | DuckDuckGo, Brave |
+| Global news | Google, Bing |
+| Calculations | WolframAlpha |
+
+---
+
 ## Checking Current Configuration
 
 To see your current AISEACT settings:

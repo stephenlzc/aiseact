@@ -407,4 +407,99 @@ site:cninfo.com.cn (annual report OR 年报)
 
 ---
 
+## VII. Multi-Engine Search Strategy
+
+### 7.1 Engine Selection Matrix
+
+When using multi-search-engine, select engines based on query type:
+
+| Query Type | Primary Engine | Secondary | Notes |
+|-----------|---------------|-----------|-------|
+| China policy | Baidu | Bing CN | Use site:gov.cn |
+| China companies (A-share) | Baidu | Bing CN | site:cninfo.com.cn |
+| HK companies | Google HK | Baidu | site:hkexnews.hk |
+| US companies | Google | Bing | site:sec.gov |
+| Tech/Code | Google | DuckDuckGo | GitHub, StackOverflow |
+| Privacy-sensitive | DuckDuckGo | Brave | No tracking |
+| Calculations/Facts | WolframAlpha | - | Math, conversions |
+| WeChat articles | Sogou WeChat | - | Chinese content |
+| General CN news | Baidu | Toutiao | Current events |
+| Global news | Google | Bing | Cross-verify |
+
+### 7.2 Multi-Engine Workflow
+
+#### Parallel Broad Search (Phase 1)
+Execute 2-3 engines simultaneously for comprehensive coverage:
+
+```
+# China policy query
+Engine 1: Baidu + "topic_name" + site:gov.cn
+Engine 2: Bing CN + "topic_name" + site:gov.cn
+Engine 3: Google + "China policy topic_name"
+```
+
+#### Sequential Target Search (Phase 3)
+Use specific engines for targeted results:
+
+```
+# Company research
+Phase 1: Baidu (broad)
+Phase 2: site:cninfo.com.cn company_name (A-share)
+Phase 3: site:company-official.com investor relations
+```
+
+#### Cross-Engine Verification (Phase 4)
+Verify facts using alternative engines:
+
+```
+Primary: Google - "fact claim"
+Verify: DuckDuckGo - "fact claim"
+Confirm: WolframAlpha - data verification
+```
+
+### 7.3 Engine-Specific Tips
+
+#### Baidu (China Focus)
+- Best for: Chinese government sites, CN news, local content
+- Syntax: `site:gov.cn`, `site:cninfo.com.cn`
+- Tip: Add `site:cn` for broader Chinese sources
+
+#### Google (Global)
+- Best for: Tech, academic, international content
+- Syntax: `site:github.com`, `filetype:pdf`, `intitle:`
+- Tip: Use Google HK for HK/Taiwan content
+
+#### DuckDuckGo (Privacy)
+- Best for: Privacy-sensitive queries, avoiding personalization
+- Syntax: Standard search operators
+- Tip: Use `!bang` shortcuts: `!gh` (GitHub), `!so` (StackOverflow)
+
+#### WolframAlpha (Knowledge)
+- Best for: Calculations, factual queries, conversions
+- Syntax: Natural language math queries
+- Tip: Use for verification of statistics, dates, facts
+
+#### Brave Search
+- Best for: Independent index, ad-free results
+- Syntax: Standard operators
+- Tip: Good alternative to Google for unbiased results
+
+### 7.4 Time-Based Filtering
+
+Use multi-search-engine's time filters:
+
+| Filter | Syntax | Use Case |
+|--------|--------|----------|
+| Past hour | `tbs=qdr:h` | Breaking news |
+| Past week | `tbs=qdr:w` | Recent developments |
+| Past month | `tbs=qdr:m` | Current trends |
+| Past year | `tbs=qdr:y` | Historical data |
+
+Example:
+```
+topic_name tbs=qdr:m  # Past month results
+```
+
+---
+
 *Master these search strategies to enable AI Agents to accurately locate authoritative sources in the ocean of information.*
