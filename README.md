@@ -1,112 +1,87 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=800&color=3B82F6&center=true&vCenter=true&width=500&lines=AISEACT" alt="AISEACT" />
+  AISEACT
 </h1>
 
 <h3 align="center">
-  AI-Search-EhAnCemenT — An Optional Methodology for Higher-Quality Search Results
+  AI-Search-EhAnCemenT — 可选的高质量搜索方法论
 </h3>
 
 <p align="center">
-  <!-- Badges -->
+  <!-- 徽章 -->
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat&logo=license" alt="License: MIT" />
-  <img src="https://img.shields.io/badge/Language-English-blue.svg?style=flat&logo=english" alt="Language" />
-  <img src="https://img.shields.io/badge/Version-1.1.0-blue.svg?style=flat&logo=version" alt="Version" />
-  <img src="https://img.shields.io/badge/Last%20Updated-March%202026-green.svg?style=flat&logo=calendar" alt="Last Updated" />
+  <img src="https://img.shields.io/badge/Language-简体中文-blue.svg?style=flat&logo=language" alt="语言" />
+  <img src="https://img.shields.io/badge/Version-1.1.0-blue.svg?style=flat&logo=version" alt="版本" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026年3月-green.svg?style=flat&logo=calendar" alt="最后更新" />
   <br>
-  <img src="https://img.shields.io/badge/Source%20Quality-5%25→85%25-green.svg?style=flat&logo=quality" alt="Source Quality" />
-  <img src="https://img.shields.io/badge/Trust-Transparent-blue.svg?style=flat&logo=trust" alt="Trust" />
+  <img src="https://img.shields.io/badge/来源质量-5%25→85%25-green.svg?style=flat&logo=quality" alt="来源质量" />
+  <img src="https://img.shields.io/badge/信任度-透明-blue.svg?style=flat&logo=trust" alt="信任透明" />
+  <img src="https://img.shields.io/badge/准确率提升-83%25-orange.svg?style=flat&logo=accuracy" alt="准确率提升" />
+  <img src="https://img.shields.io/badge/效率提升-节省时间-75%25-yellowgreen.svg?style=flat&logo=efficiency" alt="节省时间" />
 </p>
 
 ---
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=10B981&center=true&vCenter=true&width=750&lines=From+I+think+to+I+know;From+uncertainty+to+facts;From+vague+citations+to+verifiable+sources" alt="Slogan" />
+  从「我以为」到「我确定」· 从不确定到确凿事实 · 从模糊引用到可验证来源
 </h3>
 
 <p align="center">
-  🌐 <strong>English</strong> · <a href="README.zh-CN.md">简体中文</a> · <a href="https://github.com/stephenlzc/aiseact/stargazers"><img src="https://img.shields.io/github/stars/stephenlzc/aiseact?style=social" alt="Stars" /></a> · <a href="https://github.com/stephenlzc/aiseact/network/members"><img src="https://img.shields.io/github/forks/stephenlzc/aiseact?style=social" alt="Forks" /></a>
+  <a href="README.en.md"><img src="https://img.shields.io/badge/-English-blue?style=flat&logo=googletranslate&logoColor=white" alt="English" /></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/-中文-green?style=flat&logo=googletranslate&logoColor=white" alt="中文" /></a>
+  ·
+  <a href="https://github.com/stephenlzc/aiseact/stargazers"><img src="https://img.shields.io/github/stars/stephenlzc/aiseact?style=social" alt="Stars" /></a>
+  <a href="https://github.com/stephenlzc/aiseact/network/members"><img src="https://img.shields.io/github/forks/stephenlzc/aiseact?style=social" alt="Forks" /></a>
 </p>
 
 ---
 
-## ⚠️ Important Notice
+## ⚠️ 重要提示
 
-**AISEACT is an optional enhancement methodology**, not a mandatory filter. You control when and how it's used.
+**AISEACT 是一个可选的增强方法论**，而非强制性过滤器。你控制何时以及如何使用它。
 
-### Why Use AISEACT?
+### 为什么使用 AISEACT？
 
-| Benefit | Impact |
-|---------|--------|
-| 🔍 **Higher Source Quality** | P0 source usage: 5–15% → 85–100% |
-| ⏱️ **Time Efficiency** | 75% less time on source verification |
-| ✅ **Better Accuracy** | Fact-check error rate: −83% |
-| 📋 **Professional Research** | Structured methodology for complex questions |
-| 🔗 **Traceability** | Clear source labeling and citations |
+| 优势 | 效果 |
+|------|------|
+| 🔍 **更高来源质量** | P0 来源使用率：5–15% → 85–100% |
+| ⏱️ **时间效率** | 来源验证时间减少 75% |
+| ✅ **更高准确性** | 事实核查错误率降低 83% |
+| 📋 **专业研究** | 针对复杂问题的结构化方法论 |
+| 🔗 **可追溯性** | 清晰的来源标注和引用 |
 
-📊 [Full Evaluation Report →](EVALUATION_REPORT.md)
+📊 [完整评估报告 →](EVALUATION_REPORT.md)
 
----
+### 工作方式
 
-## What This Skill Does
+| 特性 | 说明 |
+|------|------|
+| 🔧 **调用方式** | 默认手动（需明确请求） |
+| ⚙️ **自动模式** | 仅可选开启；需明确启用 |
+| 🔄 **覆盖控制** | 始终可用；可随时跳过或自定义 |
+| 📖 **透明度** | 来源评级是参考指南，而非绝对规则 |
 
-| Feature | Description |
-|---------|-------------|
-| 🔧 **Invocation** | Manual by default (explicit request required) |
-| ⚙️ **Autonomous Mode** | Opt-in only; must be explicitly enabled |
-| 🔄 **Override** | Always available; skip or customize anytime |
-| 📖 **Transparency** | Source ratings are guidelines, not rules |
-
-📖 [Trust & Transparency Report →](TRUST.md) · [Configuration Guide →](CONFIGURATION.md)
+📖 [信任与透明度报告 →](TRUST.md) · [配置指南 →](CONFIGURATION.md)
 
 ---
 
-## What This Skill Does
+## 🚀 快速开始
 
-AISEACT provides a **structured, optional methodology** for improving AI search quality when you need rigorous, well-sourced answers.
+### 对于人类
 
-### When to Use AISEACT
-
-**✅ Recommended for:**
-- Academic or professional research
-- Fact-checking and verification tasks
-- Business or technical analysis where source quality matters
-- Questions requiring traceable, authoritative sources
-
-**❌ Not needed for:**
-- Quick casual queries ("What's the weather?")
-- Creative writing or brainstorming
-- Subjective opinions or diverse perspectives
-
-### The Problem It Solves
-
-AI search often retrieves mixed-quality results:
-
-- Content farms (百家号, scraper sites)
-- Rewritten articles without original insight
-- Unverifiable claims
-
-**AISEACT offers a solution**: A systematic approach to prioritize primary sources and improve traceability — when you choose to use it.
-
----
-
-## 🚀 Quick Start
-
-### For Humans
-
-Copy and paste this prompt to your AI agent (OpenCode, Claude Code, Kimi CLI, Cursor, etc.):
+复制以下提示词给你的 AI 代理（OpenCode、Claude Code、Kimi CLI、Cursor 等）：
 
 ```
-Install and configure aiseact skill by following the instructions here:
+请安装并配置 aiseact skill，参考以下说明：
 https://github.com/stephenlzc/aiseact
 ```
 
-Or install manually:
+或手动安装：
 
 ```bash
-# Clone the repository
+# 克隆仓库
 git clone https://github.com/stephenlzc/aiseact.git
 
-# Copy the entire directory to your AI agent's skills folder
+# 复制整个目录到你的 AI 代理的 skills 文件夹
 
 # OpenCode
 cp -r aiseact ~/.config/opencode/skills/
@@ -120,302 +95,286 @@ cp -r aiseact ~/.kimi/skills/
 
 ---
 
-## How It Works
+## 工作原理
 
-### Core Methodology
-
-```
-Strategy → Search → Analyze → Supplement → Validate → Answer
-```
-
-### Guiding Principles
-
-| Principle | Description |
-|-----------|-------------|
-| 📌 **Primary Source Priority** | Prefer official docs and original sources |
-| 🔁 **Iterative Search** | Multiple rounds for complex questions |
-| 🏷️ **Source Transparency** | Clear labeling of source types |
-| 🎛️ **User Control** | You decide which sources to include |
-
-### Example Usage
+### 核心方法论
 
 ```
-[User] "Use AISEACT to research what makes Company X successful"
-
-[AI with AISEACT]
-  Phase 0: Strategy Planning
-    └─ Decompose question, identify primary source locations
-    
-  Phase 1: Initial Search
-    └─ Search for: Company X prospectus, annual reports
-    └─ Reference source quality guidelines
-    
-  Phase 2: Analysis
-    └─ Identify missing information
-    
-  Phase 3: Targeted Search
-    └─ site:cninfo.com.cn Company X prospectus
-    └─ site:company-x.com official data
-    
-  Phase 4: Answer Generation
-    └─ Cite verifiable sources
-    └─ Label source types
-    └─ Note any uncertainties
+策略 → 搜索 → 分析 → 补充 → 验证 → 回答
 ```
 
-### Example Output
+### 指导原则
 
-**Standard Search:**
-> According to an online article, Company X IPO'd because...
-> *(Source: unspecified blog post)*
+| 原则 | 说明 |
+|------|------|
+| 📌 **一手信息优先** | 优先使用官方文档和原始来源 |
+| 🔁 **迭代搜索** | 针对复杂问题进行多轮搜索 |
+| 🏷️ **来源透明** | 清晰标注来源类型 |
+| 🎛️ **用户控制** | 你决定包含哪些来源 |
 
-**With AISEACT:**
-> According to Company X's prospectus [1], their IPO core advantages include:
-> - 2,000+ patents in battery technology
-> - Revenue of 19.997 billion RMB in 2017
+### 使用示例
+
+```
+[用户] "用 AISEACT 研究 XX 公司成功的原因"
+
+[使用 AISEACT 的 AI]
+  Phase 0: 策略规划
+    └─ 拆解问题，识别一手来源位置
+    
+  Phase 1: 初步搜索
+    └─ 搜索：XX 公司招股书、年报
+    └─ 参考来源质量指南
+    
+  Phase 2: 分析
+    └─ 识别缺失信息
+    
+  Phase 3: 定向搜索
+    └─ site:cninfo.com.cn XX 公司招股书
+    └─ site:company-x.com 官方数据
+    
+  Phase 4: 回答生成
+    └─ 引用可验证来源
+    └─ 标注来源类型
+    └─ 注明任何不确定性
+```
+
+### 输出示例
+
+**标准搜索：**
+> 根据一篇网络文章，XX 公司之所以能上市，是因为...
+> *(来源：未指明的博客文章)*
+
+**使用 AISEACT：**
+> 根据 XX 公司招股书[1]，其上市的核心优势包括：
+> - 电池技术领域 2,000+ 项专利
+> - 2017 年营收 199.97 亿元人民币
 > 
-> **Sources:**
-> [1] Company X Prospectus (Shanghai Exchange) — Primary Source
+> **来源：**
+> [1] XX 公司招股书（上交所）— 一手来源
 
 ---
 
-## Installation
+## 安装
 
-### Supported AI Agents
+### 支持的 AI 代理
 
-| Agent | Platform | Installation |
-|-------|----------|--------------|
-| 🦞 **OpenClaw** | Local/Cloud | `openclaw skill install aiseact` |
-| 🐙 **KimiClaw** | Moonshot AI | Copy SKILL.md to skills folder |
-| 🤖 **Claude Code** | Anthropic | Copy to `.claude/skills/` |
-| 📝 **Cursor** | Cursor AI | Copy to `.cursor/skills/` |
+| 代理 | 平台 | 安装方式 |
+|------|------|----------|
+| 🦞 **OpenClaw** | 本地/云端 | `openclaw skill install aiseact` |
+| 🐙 **KimiClaw** | Moonshot AI | 复制 SKILL.md 到 skills 文件夹 |
+| 🤖 **Claude Code** | Anthropic | 复制到 `.claude/skills/` |
+| 📝 **Cursor** | Cursor AI | 复制到 `.cursor/skills/` |
 
-### Manual Installation
+### 手动安装
 
 ```bash
-# Clone the repository
+# 克隆仓库
 git clone https://github.com/stephenlzc/aiseact.git
 
-# Copy to your AI agent's skills folder
+# 复制到你的 AI 代理的 skills 文件夹
 cp aiseact/SKILL.md ~/.claude/skills/
 ```
 
 ---
 
-## Usage
+## 使用方法
 
-### Manual Mode (Default)
+### 手动模式（默认）
 
-Explicitly request AISEACT when you need it:
+在需要时明确请求 AISEACT：
 
 ```
-"请用AISEACT搜索..."
+"请用 AISEACT 搜索..."
+"用 AISEACT 验证这个说法"
 "Use AISEACT to research..."
-"用AISEACT验证这个说法"
 ```
 
-### Autonomous Mode (Optional)
+### 自动模式（可选）
 
-Enable automatic invocation in your configuration:
+在配置中启用自动调用：
 
-- Set `disable-model-invocation: false` for this skill
-- Even enabled, you can override per-query: `"不用AISEACT，直接搜索..."`
+- 设置 `disable-model-invocation: false`
+- 即使启用，你也可以按查询覆盖：`"不用 AISEACT，直接搜索..."`
 
-### Override Options
+### 覆盖选项
 
-When AISEACT is active, you retain full control:
+当 AISEACT 激活时，你保留完全控制权：
 
-| Command | Effect |
-|---------|--------|
-| `"包含 [source]"` | Include a specific source regardless of ratings |
-| `"排除 [source]"` | Exclude a specific source |
-| `"显示所有来源"` | Don't filter; show all found sources |
-| `"不用AISEACT"` | Skip the methodology for this query |
-| `"用宽松模式"` | Reduce filtering strictness |
+| 命令 | 效果 |
+|------|------|
+| `"包含 [来源]"` | 无论评级如何，包含特定来源 |
+| `"排除 [来源]"` | 排除特定来源 |
+| `"显示所有来源"` | 不过滤；显示所有找到的来源 |
+| `"不用 AISEACT"` | 跳过此方法论 |
+| `"用宽松模式"` | 降低过滤严格度 |
 
-📖 See [CONFIGURATION.md](CONFIGURATION.md) for more options.
+📖 更多选项参见 [CONFIGURATION.md](CONFIGURATION.md)。
 
 ---
 
-## Key Features
+## 核心功能
 
-### 1. Source Quality Reference
+### 1. 来源质量参考
 
-Reference lists of commonly rated sources (see `references/`):
+常见来源评级的参考列表（参见 `references/`）：
 
-- ⚠️ **Unreliable sources**: Content farms, sites with low fact-check standards
-- ✅ **Authoritative sources**: Official documents, reputable media, academic sources
+- ⚠️ **低可信度来源**：内容农场、事实核查标准低的网站
+- ✅ **权威来源**：官方文档、知名媒体、学术来源
 
-> **Important**: These are reference materials based on third-party assessments. You can always request any source you need.
+> **重要**：这些是基于第三方评估的参考材料。你始终可以请求你需要的任何来源。
 
-### 2. Primary Source Priority
+### 2. 一手信息优先
 
-| Source Type | Description | Use Case |
-|-------------|-------------|----------|
-| 📄 **Primary** | Original documents, official sources | Facts and data |
-| 📑 **Secondary** | Analysis based on primary sources | Context and interpretation |
-| 📰 **Tertiary** | Rewritten or aggregated content | Use with caution |
+| 来源类型 | 说明 | 适用场景 |
+|----------|------|----------|
+| 📄 **一手信息** | 原始文档、官方来源 | 事实和数据 |
+| 📑 **二手信息** | 基于一手来源的分析 | 背景和解释 |
+| 📰 **三手信息** | 改写或聚合内容 | 谨慎使用 |
 
-### 3. Search Syntax Guide
+### 3. 搜索语法指南
 
 ```bash
-# Government info
-policy_name site:gov.cn
+# 政府信息
+政策名称 site:gov.cn
 
-# Company announcements (A-share)
-company_name prospectus site:cninfo.com.cn
+# 公司公告（A股）
+公司名称 招股书 site:cninfo.com.cn
 
-# Company announcements (Hong Kong)
-company_name site:hkexnews.hk
+# 公司公告（港股）
+公司名称 site:hkexnews.hk
 
-# Technical docs
-technology_name site:github.com filetype:pdf
+# 技术文档
+技术名称 site:github.com filetype:pdf
 ```
 
-### 4. Enhanced Search with multi-search-engine
+### 4. 增强搜索 - multi-search-engine
 
-AISEACT integrates with **multi-search-engine** for powerful multi-engine search capabilities:
+AISEACT 集成了 **multi-search-engine**，提供强大的多引擎搜索能力：
 
-| Feature | Description |
-|---------|-------------|
-| **17 Search Engines** | 8 China-focused + 9 Global |
-| **No API Keys Required** | Ready to use out of the box |
-| **Advanced Operators** | site:, filetype:, time filters |
-| **Privacy Options** | DuckDuckGo, Brave, Startpage |
-| **Knowledge Engine** | WolframAlpha for calculations |
+| 功能 | 说明 |
+|------|------|
+| **17 个搜索引擎** | 8 个中国 + 9 个全球 |
+| **无需 API 密钥** | 开箱即用 |
+| **高级搜索语法** | site:、filetype:、时间过滤 |
+| **隐私选项** | DuckDuckGo、Brave、Startpage |
+| **知识引擎** | WolframAlpha 用于计算和事实查询 |
 
-**Engine Selection Guide**:
+**引擎选择指南**：
 
-| Query Type | Primary | Secondary |
-|-----------|---------|-----------|
-| China policy | Baidu | Bing CN |
-| Tech/Code | Google | DuckDuckGo |
-| Privacy-sensitive | DuckDuckGo | Brave |
-| Calculations | WolframAlpha | - |
-| HK companies | Google HK | - |
-| Global news | Google | Bing |
+| 查询类型 | 主要引擎 | 备用引擎 |
+|---------|---------|---------|
+| 中国政策 | 百度 | 必应中国 |
+| 科技/代码 | Google | DuckDuckGo |
+| 隐私敏感 | DuckDuckGo | Brave |
+| 计算查询 | WolframAlpha | - |
+| 港股公司 | Google 香港 | - |
+| 全球新闻 | Google | 必应 |
 
-**Installation**:
+**安装方式**：
 ```bash
-# Install multi-search-engine for OpenClaw
+# OpenClaw 安装
 openclaw skill install https://clawhub.ai/gpyAngyoujun/multi-search-engine
 
-# Or via LobeHub CLI
+# 或通过 LobeHub CLI
 npx -y @lobehub/market-cli skills install mushroomfu-openclaw-skills-multi-search-engine
 ```
 
-📖 See [references/multi-engine-guide.md](references/multi-engine-guide.md) for detailed usage.
+📖 详细使用说明请参见 [references/multi-engine-guide.md](references/multi-engine-guide.md)
 
 ---
 
-## Project Structure
+## 项目结构
 
 ```
 aiseact/
-├── README.md                    # This file
-├── README.zh-CN.md              # Chinese documentation
-├── SKILL.md                     # Core methodology (for AI agents)
-├── TRUST.md                     # Trust & transparency report
-├── CONFIGURATION.md             # Configuration guide
-├── EVALUATION_REPORT.md         # Performance evaluation report
-├── SECURITY.md                  # Security documentation
+├── README.md                    # 本文件
+├── README.en.md                 # English documentation
+├── SKILL.md                     # 核心方法论（供 AI 代理使用）
+├── TRUST.md                     # 信任与透明度报告
+├── CONFIGURATION.md             # 配置指南
+├── EVALUATION_REPORT.md         # 性能评估报告
+├── SECURITY.md                  # 安全文档
 └── references/
-    ├── unreliable-sources.md    # Source quality reference
-    ├── authority-sources.md     # Authoritative source recommendations
-    ├── quick-reference.md       # Bilingual quick reference
-    ├── workflow.md              # Detailed workflow guide
-    ├── search-strategies.md     # Search techniques
-    ├── multi-engine-guide.md    # Multi-search-engine integration
-    ├── search-syntax.md        # Unified search syntax reference
-    └── case-studies.md         # Examples
-```
-aiseact/
-├── README.md                    # This file
-├── README.zh-CN.md              # Chinese documentation
-├── SKILL.md                     # Core methodology (for AI agents)
-├── TRUST.md                     # Trust & transparency report
-├── CONFIGURATION.md             # Configuration guide
-├── EVALUATION_REPORT.md         # Performance evaluation report
-├── SECURITY.md                  # Security documentation
-└── references/
-    ├── unreliable-sources.md    # Source quality reference
-    ├── authority-sources.md     # Authoritative source recommendations
-    ├── quick-reference.md       # Bilingual quick reference
-    ├── workflow.md              # Detailed workflow guide
-    ├── search-strategies.md     # Search techniques
-    └── case-studies.md          # Examples
+    ├── unreliable-sources.md    # 来源质量参考
+    ├── authority-sources.md     # 权威来源推荐
+    ├── quick-reference.md       # 双语快速参考
+    ├── workflow.md              # 详细工作流程指南
+    ├── search-strategies.md     # 搜索技巧
+    ├── multi-engine-guide.md    # multi-search-engine 集成指南
+    ├── search-syntax.md        # 统一搜索语法参考
+    └── case-studies.md         # 案例
 ```
 
 ---
 
-## Trust & Transparency
+## 信任与透明度
 
-### User Autonomy
+### 用户自主权
 
-- **Default:** Manual invocation only
-- **Override:** Always available
-- **Source Control:** You decide what to include
+- **默认**：仅手动调用
+- **覆盖**：始终可用
+- **来源控制**：你决定包含什么
 
-### Acknowledged Limitations
+### 已承认的局限性
 
-- **Western-centric bias** — Evaluation frameworks favor Western sources
-- **Mainstream preference** — May undervalue independent/alternative sources
-- **Temporal limitations** — Ratings are snapshots, not permanent
+- **西方中心偏见** — 评估框架偏向西方来源
+- **主流媒体偏好** — 可能低估独立/另类来源
+- **时效性限制** — 评级是快照，非永久
 
-### Data Privacy
+### 数据隐私
 
-- No data storage
-- No external servers beyond standard search APIs
-- No credential requirements
+- 不存储数据
+- 无外部服务器（标准搜索 API 除外）
+- 无需凭证
 
-📖 [Full Trust Report →](TRUST.md)
-
----
-
-## Why AISEACT?
-
-### Use Case: Research Quality
-
-When you need:
-
-- ✅ Verifiable claims with source URLs
-- ✅ Primary sources over rewritten content
-- ✅ Structured methodology for complex questions
-
-AISEACT provides an optional framework — without forcing it on every query.
-
-### Comparison
-
-| Aspect | Standard Search | With AISEACT |
-|--------|-----------------|--------------|
-| Speed | Fast | Moderate (more thorough) |
-| Source Quality | Mixed | Higher |
-| User Control | Full | Full (optional) |
-| Best For | Quick answers | Research, verification |
+📖 [完整信任报告 →](TRUST.md)
 
 ---
 
-## Documentation
+## 为什么选择 AISEACT？
 
-- [SKILL.md](SKILL.md) — Core methodology for AI agents
-- [TRUST.md](TRUST.md) — Trust, transparency, and user control
-- [CONFIGURATION.md](CONFIGURATION.md) — Customization options
-- [EVALUATION_REPORT.md](EVALUATION_REPORT.md) — Performance metrics
-- [references/workflow.md](references/workflow.md) — Detailed workflow
-- [references/authority-sources.md](references/authority-sources.md) — Source recommendations
-- [references/multi-engine-guide.md](references/multi-engine-guide.md) — Multi-search-engine integration
+### 使用场景：研究质量
+
+当你需要：
+
+- ✅ 带有来源 URL 的可验证声明
+- ✅ 一手来源而非改写内容
+- ✅ 复杂问题的结构化方法论
+
+AISEACT 提供一个可选框架来实现这些——而不会强制用于每个查询。
+
+### 对比
+
+| 方面 | 标准搜索 | 使用 AISEACT |
+|------|----------|--------------|
+| 速度 | 快 | 中等（更彻底） |
+| 来源质量 | 混合 | 更高 |
+| 用户控制 | 完全 | 完全（可选） |
+| 最适合 | 快速答案 | 研究、验证 |
 
 ---
 
-## 🙏 Acknowledgments
+## 文档
 
-Special thanks to <img src="https://simpleicons.org/icons/tiktok.svg" width="16" height="16" alt="TikTok"/> **CHEN老师说AI** on Douyin for the inspiration and insights that helped shape this project.
-
-Thanks to **[@gpyAngyoujun](https://clawhub.ai/gpyAngyoujun/multi-search-engine)** for the brilliant idea of aggregating 17 search engines into a unified skill — this concept sparked AISEACT's multi-engine research workflow. In the vibe coding era, **IDEAS ARE THE REAL ENGINE**.
+- [SKILL.md](SKILL.md) — AI 代理的核心方法论
+- [TRUST.md](TRUST.md) — 信任、透明度和用户控制
+- [CONFIGURATION.md](CONFIGURATION.md) — 自定义选项
+- [EVALUATION_REPORT.md](EVALUATION_REPORT.md) — 性能指标
+- [references/workflow.md](references/workflow.md) — 详细工作流程
+- [references/authority-sources.md](references/authority-sources.md) — 来源推荐
+- [references/multi-engine-guide.md](references/multi-engine-guide.md) — multi-search-engine 集成指南
 
 ---
 
-## License
+## 🙏 致谢
+
+特别感谢抖音的 <img src="https://simpleicons.org/icons/tiktok.svg" width="16" height="16" alt="TikTok"/> **CHEN老师说AI**，感谢您的启发和见解，帮助塑造了这个项目。
+
+感谢 **[@gpyAngyoujun](https://clawhub.ai/gpyAngyoujun/multi-search-engine)** 提出的17引擎聚合这一出色想法 — 这个概念启发了 AISEACT 的多引擎研究工作流。在这个 vibe coding 的时代，**点子才是真正的引擎**。
+
+---
+
+## 许可证
 
 MIT © [stephenlzc](https://github.com/stephenlzc)
 
@@ -423,10 +382,11 @@ MIT © [stephenlzc](https://github.com/stephenlzc)
 
 <div align="center">
 
-**AISEACT** — Search Smarter, When You Need To 🔍
+**AISEACT** — 在需要时进行更聪明的搜索 🔍
 
-*Trust, verify, and always stay in control.*
+*信任、验证，并始终掌控。*
 
-[English](README.md) · [中文](README.zh-CN.md)
+<a href="README.en.md"><img src="https://img.shields.io/badge/-English-blue?style=flat&logo=googletranslate&logoColor=white" alt="English" /></a>
+<a href="README.md"><img src="https://img.shields.io/badge/-中文-green?style=flat&logo=googletranslate&logoColor=white" alt="中文" /></a>
 
 </div>
